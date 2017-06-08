@@ -19,7 +19,8 @@ h1,h2,p
 	margin:auto;
 }
 
-.imgs
+.content
 {
-	margin-left:42%;
+	font-size:20px;
+	color:white;
 }
