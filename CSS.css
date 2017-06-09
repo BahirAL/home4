@@ -8,7 +8,7 @@ h1,h2,p,ol,li
 	color:white;
 }
 
-h1,h2,p
+h1,h2
 {
 	text-align:center;
 }
@@ -19,13 +19,21 @@ h1,h2,p
 	margin:auto;
 }
 
-.content
-{
-	font-size:20px;
-	color:white;
-}
-
 .imgs
 {
-	margin-left:35%
+	display:block;
+	margin:auto;
+}
+
+p
+{
+	padding-left:8%;
+	padding-right:8%
+}
+
+.top
+{
+	text-align:center;
+	font-size:22px;
+	color:white;
 }
