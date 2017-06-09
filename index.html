@@ -8,40 +8,71 @@
 	<body>
 		<p> By: Evan Chen, Cindy Gu, Felix Liao, and Bahir Ali Latif </p>
 		<h1> Hardware Project </h1>
-		<p> Hello, this is our hardware project! We will get 100% on it!
 		
 		<h2> Table of contents </h2>
-		<p> 
-        	<a href= "#IOC" class="content"> Importance of components </a> 
-        	<a href= "#SU" class="content"> System Unit </a> 
-			<a href= "#MB" class="content"> Motherboard </a>
-			<a href= "#CPU" class="content"> CPU </a>
-			<a href= "#RAM" class="content"> RAM </a>
-			<a href= "#FDD" class="content"> Floppy disk </a>
-			<a href= "#PS" class="content"> Power supply </a>
+		<p class="top"> 
+			<a href= "#HW"> How a computer works </a>
+        	<a href= "#SU" class="top" > System Unit </a>
+			<a href= "#MB"> Motherboard </a>
+			<a href= "#CPU" class="top"> CPU </a>
+			<a href= "#RAM"> RAM </a>
+			<a href= "#FDD" class="top"> Floppy disk </a>
         </p>
-		<p>
-        	<a href= "#HDD" class="content"> Hard disk drive</a>
-			<a href= "#CD" class="content"> CD Drive </a>
-			<a href= "#MS" class="content"> Motherboard Speaker </a>
-			<a href= "#BT" class="content" >Voltage Regulator Module </a>
-            <a href= "#HW" class="content"> How a computer works </a>
-			<a href= "sources.html" class="content"> Sources </a>
+		<p class="top">
+			<a href= "#PS" > Power supply </a>
+        	<a href= "#HDD" class="top"> Hard disk drive</a>
+			<a href= "#CD" > CD Drive </a>
+			<a href= "#MS" class="top"> Motherboard Speaker </a>
+			<a href= "#BT" >Voltage Regulator Module </a>
+			<a href= "sources.html" class="top"> Sources </a>
 		</p>
 		
 		
-		
+		<h2 id="HW"> How Computer Works </h2>
+			<p> Computers are machines that handles data. They can store, receive and process information. These electrical machines are programmable and are made to execute specific instructions that are programmed. </p>
+			<p> When the power is first turned on the computer, a signal is sent to the power supply and 
+				electricity and voltage is sent to the computer’s components. When the components are ready and no error signal is sent to the CPU, the CPU gets assigned a hexadecimal number that prepares it to receive instructions from the BIOS. 
+				After the computer turns on, the process of booting up begins. As the user provides input; the system software tells the CPU to start up programs and hardware devices so the computer is setup to collect more input. 
+				When the user makes a click on the mouse, a copy of the software program is copied into the RAM from the hard disk drive. 
+				Software is the set of instructions that are coded as tasks which the computer follows with the help of the hardware and the physical components of a computer, in order to take in input and produce output.
+
 		<h2 id="SU"> System Unit </h2>
-		<p> Before </p>
+		<p class="top"> Before </p>
 		<img class="imgs" src="FullBefore.jpg" width="320" height="350" alt="This is a picture of the full system unit before it was taken apart" >
-		<p> Empty System Unit </p>
+		<p class="top"> Empty System Unit </p>
 		<img class="imgs" src="Empty.jpg" width="320" height="350" alt="This is a picture of the empty system unit after the components have been taken out" >
 		
-        
         <h2 id="MB"> Motherboard </h2>
+			<p> Important part of the computer. It holds many components of a computer. It’s a board made of non-conductive plastic with thin layers of copper or aluminum foil printed as narrow tracks. 
+				Many sockets are also made in order to hold in other components. </p>
+			<ol>Parts of the motherboard 
+				<li> CPU socket that stores the CPU </li>
+				<li>Fans mount next to CPU socket </li>
+				<li> Power connector which distrivbutes power through the motherboard </li>
+				<li> Memory slots for ram </li>
+				<li>Video and graphics cards slotes such as Accelerated Graphics Port (AGP)
+					and Peripheral Component Interconnect Express(PCIe) </li>
+				<li> <ul> Northbridge and southbridge make up the chipset </li>
+					<li>Southbridge controls input and output functions </li>
+					<li>Northbridge forms an interface between main memory, CPU and other components </li>
+				</ul>
+				<li>Connectors to periperals(handled by Southbridge)</li>
+				<li> <ul> ROM(read only memor also known as BIOS), with startup insturctions or firmware </li>
+					<li>BIOS is a non-violatile firware that give instructions during the startup process
+						and boot the operating system </li>
+					</ul>
+				<li> Slots to connect hardware in the form of Peripheral Component Interconnect(PCI) slots </li>
+				<li> Slots for hard drives to store files </li>
+			</ol>
 			<img class="imgs1" src="EmptyMB.jpg" width="320" height="250" alt="This is a picture of the empty motherboard" >
 			<img class="imgs2" src="FullMB.jpg" width="320" height="250" alt="This is a picture of the full motherboard" >
 		<h2 id="CPU"> CPU </h2>
+			<p> The central processing unit (CPU) of a computer is a piece of hardware on the motherboard that handles the commands from other hardware and softwares. 
+				It performs the basic arithmetical, logical, and input/output operations of a computer system. The CPU is also called brain of the computer. </p>
+			<ol> The main parts of a CPU include:
+				<li> The ALU that performs mathermatical and logical operations </li>
+				<li> The CU that directs the processor operations </li>
+			</ol>
 			<img class="imgs" src="CPU.jpg" width="250" height="250" alt="This is a picture of the Central Processing Unit or CPU" >
 		<h2 id="RAM"> RAM </h2>
 			<img class="imgs" src="RAM.jpg" width="320" height="250" alt="This is a picture of the Random Access Memory or the RAM" >
@@ -57,17 +88,13 @@
 		<h2 id="BT"> Voltage Regulator Module </h2>
 			<img class="imgs" src="Battery.jpg" width="320" height="250" alt="This is a picture of the voltage regulator module" >
             
-        <h2 id="HW"> How Computer Works </h2>
-            
-        <h2 id="IOC"> Importance of components </h2>
-		
-		<p> This is the picture of the system unit after we put back the components </p>
+		<p class="top"> This is the picture of the system unit after we put back the components </p>
 		<img class="imgs" src="FullAfter.jpg" width="320" height="350" alt="This is a picture of the full system unit after it was taken apart" >
 		
 		<a href="http://validator.w3.org/check?uri=https://bahiral.github.io/home/"> 
 		<img id= "valid" src=" html5_with_css3_+_semantics.png" width="165" height="64" alt="HTML5 with CSS3 and Semantics">  
 		</a> 
 		
-		<p> Return to the <a href= "#Top"> top </a> of the page </p>
+		<p class="top"> Return to the <a href= "#Top"> top </a> of the page </p>
 	</body>
 </html>
